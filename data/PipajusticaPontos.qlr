@@ -1,0 +1,414 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="postgres" checked="Qt::Checked" id="Serviços__copiar20170509111225186" source="dbname='ProlagosGis' host=172.20.68.15 port=5432 user='postgres' sslmode=disable key='id' srid=4326 type=MultiPoint table=&quot;public&quot;.&quot;Serviços&quot; (geom) sql=&quot;DESCRICAO&quot; = 'PIPA JUSTICA' " name="PipaJusticaPontos">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>Serviços__copiar20170509111225186</id>
+      <datasource>dbname='ProlagosGis' host=172.20.68.15 port=5432 user='postgres' password='Prolago5' sslmode=disable key='id' srid=4326 type=MultiPoint table="public"."Serviços" (geom) sql="DESCRICAO" = 'PIPA JUSTICA' </datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>PipaJusticaPontos</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ANOMES">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ANOOS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ATRASO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CD_ACAO_SERVICO_ENCERRAMENTO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CD_REGIAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CD_SERVICO_SOLICITADO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CD_SUB_REGIAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CODEXECOCOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="COD_GRUPO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DATACONCLUSAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DATAEMISSAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DATAINICIO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DATAPROGRAMACAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DAT_AGENDAMENTO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRANOMALIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRICAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DESCRSETOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DS_ACAO_SERVICO_ENCERRAMENTO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DS_SERVICO_SOLICITADO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DT_FECHAMENTO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DT_LIMITE_EXECUCAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="DT_SERVICO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ENDERECOOSP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EQP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FL_EXECUTADO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="FL_PRINCIPAL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="IDANOMALIA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="IDOSP">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ID_CONTRATO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ID_EXECUCAO_SERVICO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ID_EXECUCAO_SERVICO_PRINCIPAL">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ID_SERVICO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LATITUDEEXECUCAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LATITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONGITUDEEXECUCAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="LONGITUDE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MATRICULA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MOTIVOEXECOCOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NM_TIPO_EXECUCAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NOMECOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="NR_ROTA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Número de registros">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="OS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SERVICO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SETOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SETOR_EQUIPE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SETOR_PROGRAMADOR">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SF">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STATUS">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TEMPOATENDIMENTO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="TEMPOPADRAO">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="UNIDADE">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_53">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_54">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_55">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_56">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_57">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="field_58">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="108,129,157,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Rótulo"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform>.</annotationform>
+      <aliases>
+        <alias field="id" index="0" name=""/>
+        <alias field="ANOMES" index="1" name=""/>
+        <alias field="ANOOS" index="2" name=""/>
+        <alias field="ATRASO" index="3" name=""/>
+        <alias field="CD_ACAO_SERVICO_ENCERRAMENTO" index="4" name=""/>
+        <alias field="CD_REGIAO" index="5" name=""/>
+        <alias field="CD_SERVICO_SOLICITADO" index="6" name=""/>
+        <alias field="CD_SUB_REGIAO" index="7" name=""/>
+        <alias field="CODEXECOCOR" index="8" name=""/>
+        <alias field="COD_GRUPO" index="9" name=""/>
+        <alias field="DATACONCLUSAO" index="10" name=""/>
+        <alias field="DATAEMISSAO" index="11" name=""/>
+        <alias field="DATAINICIO" index="12" name=""/>
+        <alias field="DATAPROGRAMACAO" index="13" name=""/>
+        <alias field="DAT_AGENDAMENTO" index="14" name=""/>
+        <alias field="DESCRANOMALIA" index="15" name=""/>
+        <alias field="DESCRICAO" index="16" name=""/>
+        <alias field="DESCRSETOR" index="17" name=""/>
+        <alias field="DS_ACAO_SERVICO_ENCERRAMENTO" index="18" name=""/>
+        <alias field="DS_SERVICO_SOLICITADO" index="19" name=""/>
+        <alias field="DT_FECHAMENTO" index="20" name=""/>
+        <alias field="DT_LIMITE_EXECUCAO" index="21" name=""/>
+        <alias field="DT_SERVICO" index="22" name=""/>
+        <alias field="ENDERECOOSP" index="23" name=""/>
+        <alias field="EQP" index="24" name=""/>
+        <alias field="FL_EXECUTADO" index="25" name=""/>
+        <alias field="FL_PRINCIPAL" index="26" name=""/>
+        <alias field="IDANOMALIA" index="27" name=""/>
+        <alias field="IDOSP" index="28" name=""/>
+        <alias field="ID_CONTRATO" index="29" name=""/>
+        <alias field="ID_EXECUCAO_SERVICO" index="30" name=""/>
+        <alias field="ID_EXECUCAO_SERVICO_PRINCIPAL" index="31" name=""/>
+        <alias field="ID_SERVICO" index="32" name=""/>
+        <alias field="LATITUDEEXECUCAO" index="33" name=""/>
+        <alias field="LATITUDE" index="34" name=""/>
+        <alias field="LONGITUDEEXECUCAO" index="35" name=""/>
+        <alias field="LONGITUDE" index="36" name=""/>
+        <alias field="MATRICULA" index="37" name=""/>
+        <alias field="MOTIVOEXECOCOR" index="38" name=""/>
+        <alias field="NM_TIPO_EXECUCAO" index="39" name=""/>
+        <alias field="NOMECOR" index="40" name=""/>
+        <alias field="NR_ROTA" index="41" name=""/>
+        <alias field="Número de registros" index="42" name=""/>
+        <alias field="OS" index="43" name=""/>
+        <alias field="SERVICO" index="44" name=""/>
+        <alias field="SETOR" index="45" name=""/>
+        <alias field="SETOR_EQUIPE" index="46" name=""/>
+        <alias field="SETOR_PROGRAMADOR" index="47" name=""/>
+        <alias field="SF" index="48" name=""/>
+        <alias field="STATUS" index="49" name=""/>
+        <alias field="TEMPOATENDIMENTO" index="50" name=""/>
+        <alias field="TEMPOPADRAO" index="51" name=""/>
+        <alias field="UNIDADE" index="52" name=""/>
+        <alias field="field_53" index="53" name=""/>
+        <alias field="field_54" index="54" name=""/>
+        <alias field="field_55" index="55" name=""/>
+        <alias field="field_56" index="56" name=""/>
+        <alias field="field_57" index="57" name=""/>
+        <alias field="field_58" index="58" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="-948328779">
+        <columns/>
+      </attributetableconfig>
+      <editform>.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="id" expression=""/>
+        <default field="ANOMES" expression=""/>
+        <default field="ANOOS" expression=""/>
+        <default field="ATRASO" expression=""/>
+        <default field="CD_ACAO_SERVICO_ENCERRAMENTO" expression=""/>
+        <default field="CD_REGIAO" expression=""/>
+        <default field="CD_SERVICO_SOLICITADO" expression=""/>
+        <default field="CD_SUB_REGIAO" expression=""/>
+        <default field="CODEXECOCOR" expression=""/>
+        <default field="COD_GRUPO" expression=""/>
+        <default field="DATACONCLUSAO" expression=""/>
+        <default field="DATAEMISSAO" expression=""/>
+        <default field="DATAINICIO" expression=""/>
+        <default field="DATAPROGRAMACAO" expression=""/>
+        <default field="DAT_AGENDAMENTO" expression=""/>
+        <default field="DESCRANOMALIA" expression=""/>
+        <default field="DESCRICAO" expression=""/>
+        <default field="DESCRSETOR" expression=""/>
+        <default field="DS_ACAO_SERVICO_ENCERRAMENTO" expression=""/>
+        <default field="DS_SERVICO_SOLICITADO" expression=""/>
+        <default field="DT_FECHAMENTO" expression=""/>
+        <default field="DT_LIMITE_EXECUCAO" expression=""/>
+        <default field="DT_SERVICO" expression=""/>
+        <default field="ENDERECOOSP" expression=""/>
+        <default field="EQP" expression=""/>
+        <default field="FL_EXECUTADO" expression=""/>
+        <default field="FL_PRINCIPAL" expression=""/>
+        <default field="IDANOMALIA" expression=""/>
+        <default field="IDOSP" expression=""/>
+        <default field="ID_CONTRATO" expression=""/>
+        <default field="ID_EXECUCAO_SERVICO" expression=""/>
+        <default field="ID_EXECUCAO_SERVICO_PRINCIPAL" expression=""/>
+        <default field="ID_SERVICO" expression=""/>
+        <default field="LATITUDEEXECUCAO" expression=""/>
+        <default field="LATITUDE" expression=""/>
+        <default field="LONGITUDEEXECUCAO" expression=""/>
+        <default field="LONGITUDE" expression=""/>
+        <default field="MATRICULA" expression=""/>
+        <default field="MOTIVOEXECOCOR" expression=""/>
+        <default field="NM_TIPO_EXECUCAO" expression=""/>
+        <default field="NOMECOR" expression=""/>
+        <default field="NR_ROTA" expression=""/>
+        <default field="Número de registros" expression=""/>
+        <default field="OS" expression=""/>
+        <default field="SERVICO" expression=""/>
+        <default field="SETOR" expression=""/>
+        <default field="SETOR_EQUIPE" expression=""/>
+        <default field="SETOR_PROGRAMADOR" expression=""/>
+        <default field="SF" expression=""/>
+        <default field="STATUS" expression=""/>
+        <default field="TEMPOATENDIMENTO" expression=""/>
+        <default field="TEMPOPADRAO" expression=""/>
+        <default field="UNIDADE" expression=""/>
+        <default field="field_53" expression=""/>
+        <default field="field_54" expression=""/>
+        <default field="field_55" expression=""/>
+        <default field="field_56" expression=""/>
+        <default field="field_57" expression=""/>
+        <default field="field_58" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </maplayers>
+</qlr>

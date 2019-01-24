@@ -1,0 +1,96 @@
+@charset "utf-8";
+.css_Geral {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-color: #FFF;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+
+.trCabecalho {
+	
+	background-color:#CC9;
+	background-image:url(../imgs/bkgrd.jpg);
+}
+
+
+.trCabecalhoPagina {
+	
+	
+	background-image:url(../imgs/bkgrd.jpg);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+.trBusca {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	background-color:#F4F4F4;
+	color:#033;
+	
+}
+
+.titulos {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#000;
+	background-image:url(../imgs/bkgrd.jpg);
+	
+}
+
+.titulos2 {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	background-image:url(../imgs/bkgrd2.jpg);
+	
+}
+
+.titulos3 {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#000;
+	
+}
+
+.carteirinha {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:23px;
+	color:#FFF;
+	background-image:url(../imgs/carteirinha.jpg);
+	background-repeat:repeat-x;
+	
+}
+
+.textoGeral {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#666;
+	
+		
+}
+
+.textoGeral2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#000;
+		
+}
+
+
+
+
+<!-- Daqui pra baixo formulario -->
+<!-- ------------------------------------------------------------------------------------------------- -->
+

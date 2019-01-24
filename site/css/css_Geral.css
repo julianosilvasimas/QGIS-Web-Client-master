@@ -1,0 +1,168 @@
+@charset "utf-8";
+.css_Geral {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-color: #FFF;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;	
+}
+
+.trCabecalho {
+	
+	background-color:#CC9;
+	background-image:url(../imgs/bkgrd.jpg);
+}
+
+
+.trCabecalhoPagina {
+	
+	background-color:#CC9;
+	background-image:url(../imgs/bkgrd.jpg);
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+}
+
+.trBusca {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	background-color:#F4F4F4;
+	color:#033;
+	
+}
+
+.trBusca2 {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	background-color:#CCCCCC;
+	color:#033;
+	
+}
+
+.titulos {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#000;
+	background-image:url(../imgs/bkgrd.jpg);
+	
+}
+
+.titulos2 {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	background-image:url(../imgs/bkgrd2.jpg);
+	
+}
+
+.titulos3 {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#000;
+	
+}
+
+.titulos4 {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	color:#FFF;
+	 background: url(../imgs/logoPro1.jpg) bottom left no-repeat, 
+	  url(../imgs/logoPro3.jpg) bottom right no-repeat, 
+      url(../imgs/logoPro2.jpg) center repeat;
+	
+	
+}
+
+.carteirinha {
+	
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:23px;
+	color:#FFF;
+	background-image:url(../imgs/carteirinha.jpg);
+	background-repeat:repeat-x;
+	
+}
+
+.textoGeral {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#666;
+	
+		
+}
+
+.textoGeral2 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	color:#000;
+		
+}
+
+.senha {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:white;
+	background: #082F56;
+	text-align: center;
+		
+}
+
+
+
+
+<!-- Daqui pra baixo formulario -->
+<!-- ------------------------------------------------------------------------------------------------- -->
+
+input, textarea { 
+	padding: 9px;
+	border: solid 1px #E5E5E5;
+	outline: 0;
+	font: normal 13px/100% Verdana, Tahoma, sans-serif;
+	width: 200px;
+	background: #FFFFFF url('bg_form.png') left top repeat-x;
+	background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+	background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+	box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+	}
+
+textarea { 
+	width: 600px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+	border-color: #C9C9C9; 
+	-webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 8px;
+	}
+
+.form label { 
+	margin-left: 10px; 
+	color: #999999; 
+	}
+
+.submit input {
+	width: auto;
+	padding: 9px 15px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    }

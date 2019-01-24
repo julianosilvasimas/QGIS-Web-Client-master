@@ -1,0 +1,74 @@
+h1, h2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 1200px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 50px;
+  border-radius: 8px;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  height: 200px;
+  border-radius: 8px;
+}
+h3 {
+  display: block;
+  margin: 0 auto;
+  width: 1200px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.tableau {
+  width: 1200px;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+.tableauViz {
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+body {
+  background-image: url('aracas.jpeg');
+}
+
+footer{
+  text-align: right;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-right: 5px;
+  background-color: white;
+  opacity: 0.7;
+  width: 1200px;
+  color: black;
+}
+
+.navbar{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 1200px;
+  background-color: gray;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 8px;
+}

@@ -1,0 +1,213 @@
+/* this file contains styles for the landing page showing listing the different projects */
+
+body {background: white;}
+div.container { background: white;}
+li.list-header { 
+  font-weight: bold;
+  list-style: none; 
+  margin-left:0px;  }
+
+      /* ----------------------------------------------------
+  2) NAVIGATION STYLE 
+------------------------------------------------------- */
+
+  /* mobile navigation */
+#MobileMainNavigation {
+  display: none;
+}
+/* main navigation bar holder */
+#navigation_bar {
+  float: left;
+  display: inline-block;
+  line-height: 20px;
+  position: relative;
+  top: -10px;
+  margin-right: 10px;
+  z-index: 100;
+
+}
+/* main navigation*/
+#navigation {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  z-index: 999;
+}
+#navigation li {
+  float: left;
+  font-size: 14px;
+  margin: 0 0 0 10px;
+  position: relative;
+}
+/* sub menu items */
+#navigation ul {
+  position: absolute;
+  margin: 0;
+  z-index: 50;
+  background: #103961;
+  width: 150px;
+  top: 81px;
+  padding: 0;
+  display: none;
+  text-align: left;
+}
+#navigation ul li {
+  float: none;
+  display: block;
+  font-size: 12px;
+  margin: 0;
+  border-bottom: 1px solid #fff;
+}
+/* from third level menu items */
+#navigation ul ul {
+  padding: 0;
+  left: 151px;
+  opacity: 1;
+  margin: 0;
+  top: 0;
+}
+/* from fourth level menu items */  
+#navigation ul ul ul {
+  opacity: 1;
+}
+/* fix for IE */  
+.on-top {
+  z-index: 10000;
+}
+/*
+  *
+  *   menu links styling
+  * 
+  */ 
+  
+  /* first level menu links */
+#navigation_bar > ul > li > a {
+  font-size: 14px;
+  color: #949494;
+  text-decoration: none;
+  align-content: center;
+  line-height: 16px;
+  display: block;
+  padding: 54px 10px 10px;
+  margin: 0 0 8px 0;
+}
+/* current page item and hover status */
+#navigation_bar > ul > li.current_page_item > a, #navigation_bar > ul > li.current_page_parent > a, #navigation_bar > ul > li.current-menu-ancestor > a, #navigation_bar > ul > li > a:hover, #navigation_bar > ul > li:hover > a {
+  background: #103961 url(images/menu-top.png) center top no-repeat;
+  color: #fff;
+}
+#navigation_bar li.hasSubMenu:hover > a {
+  color: #0E3357;
+}
+/* sub menu links */
+#navigation ul li a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* sub menu links hover status */
+#navigation ul li a:hover {
+  background: url(images/dark-transparent.png);
+}
+/* third level links */
+#navigation ul ul a {
+  position: relative;
+  display: block !important;
+}
+/* line heights of sub menu items */
+#navigation_bar ul ul a {
+  line-height: 130%;
+}
+#navigation ul ul li:last-child > a {
+  border-bottom: 0 !important;
+}
+#navigation ul ul li {
+  display: block !important;
+  z-index: 299;
+
+  /*bluestyle*/
+  body {
+  background-image:url(images/assets/patterns/pinstripe.png);
+}
+
+#container{
+  background:url(images/cross-background.png) no-repeat center top; 
+}
+
+/*color*/
+#logo h1,#logo h1 a,
+.head_text h1,.head_text h2,.head_text h3,.head_text h4,.head_text h5,.head_text h6,
+a, #footer .box.footer.widget a, .tweet_time a, .box .tweet_text a, .box .tweet_text a:hover,   
+.widget_nav_menu ul li a:hover, .widget_categories  ul li a:hover, .widget_meta  ul li a:hover, .widget_recent_entries  ul li a:hover, .widget_pages  ul li a:hover, .widget_rss  ul li a:hover,.widget_recent_comments  ul li a:hover, 
+.banner .featured_text a,
+.content h1 a:hover,.content h2 a:hover,.content h3 a:hover,.content h4 a:hover,.content h5 a:hover,.content h6 a:hover,
+.rt-toggle ol li.open .toggle-head,
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs a:hover, ul.tabs li.current a,
+a.read_more, a.read_more:hover,a.more-link,a.more-link:hover
+{
+  color:#4b9ec9;
+}
+
+/*link hovers */
+#logo h1 a:hover,
+.box .tweet_text a:hover,  
+h1 a:hover,h2 a:hover,h3 a:hover,h4 a:hover,h5 a:hover,h6 a:hover,
+.box .tweet_text a:hover, 
+ul.tabs a.current:hover, ul.tabs a:hover,
+a.read_more:hover,a.more-link:hover
+{
+  color:#4b9ec9;
+  opacity:0.8;
+  filter:alpha(opacity=80);
+}     
+/*---------------------------------------------------------------------------------------*/
+/*background-color*/
+.icon-holder,
+.head_text .arrow,
+.box:hover > .image-border-bottom,
+#navigation ul,
+#navigation_bar > ul > li.current_page_item > a, #navigation_bar > ul > li.current_page_parent > a, #navigation_bar > ul > li.current-menu-ancestor > a , #navigation_bar > ul > li > a:hover, #navigation_bar > ul > li:hover > a,
+.flex-caption .desc-background,
+.flex-direction-nav li, .flex-direction-nav li a,
+.flex-control-nav li a,
+body .search-bar form input.searchsubmit,
+.paging li a:hover,.paging li a:hover, .paging li.active a,
+.post-navigations a,
+a.banner_button,
+a.banner_button:hover,
+.social_tip,
+.icon-overlay .icon,
+.blog_list .date ,
+.rt-toggle ol li .toggle-number,
+.mobile-date,
+.theme-default .nivo-directionNav a ,
+.theme-default .nivo-caption  .desc-background,
+.theme-default .nivo-controlNav a 
+{
+  background-color:#103961;
+}
+
+::selection{
+  background-color:#1039
+}
+
+::-moz-selection{
+  background-color:#103961;
+} 
+
+/*border-color*/
+.logo-holder,
+ul.tabs a.current, ul.tabs a.current:hover, ul.tabs a:hover, ul.tabs li.current a ,
+blockquote p,
+blockquote.alignleft p,
+blockquote.alignright p{
+  border-color:#103961;
+}
+}
+
+  
+ 

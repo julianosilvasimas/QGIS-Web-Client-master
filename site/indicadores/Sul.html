@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="relatorio.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <meta charset="utf-8">
+    <title>Relatorio de Acompanhamento Diario</title>
+  </head>
+  <body>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <h1>
+      <img src="logotipo.png" alt="Imagem de Titulo">
+    </h1>
+
+    <!-- Menu -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+          <a class="nav-link" href="Ranking.html">Ranking</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="Comparativo.html">Comparativo</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Indicadores Ordinários
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item active" href="#">Sul</a>
+              <a class="dropdown-item" href="Prolagos.html">Prolagos</a>
+              <a class="dropdown-item" href="SaoPaulo.html">São Paulo</a>
+              <a class="dropdown-item disabled" href="#">Serra</a>
+              <a class="dropdown-item disabled" href="#">Vila Velha</a>
+              <a class="dropdown-item disabled" href="#">Mirante</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+      <h2> Faturamento Bruto </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelFaturamentoBruto&#47;tableau.diretoriaop@latam.corp.net&#47;FaturamentoBrutoSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Receita Direta </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReceitaDiretaTotal&#47;tableau.diretoriaop@latam.corp.net&#47;ReceitaDiretaSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Receita Indireta </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReceitaIndiretaTotal&#47;tableau.diretoriaop@latam.corp.net&#47;ReceitaIndiretaSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Receita Fiscalização </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReceitaFiscalizao&#47;tableau.diretoriaop@latam.corp.net&#47;ReceitaFiscalizaoSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Receita Novas Ligações </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'>
+        </script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+          <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+          <param name='embed_code_version' value='3' />
+          <param name='site_root' value='' />
+          <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReceitaNovasLigaes&#47;tableau.diretoriaop@latam.corp.net&#47;RececitaNLSul' />
+          <param name='tabs' value='no' />
+          <param name='toolbar' value='no' />
+          <param name='showAppBanner' value='false' />
+          <param name='filter' value='iframeSizedToWindow=true' />
+          <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Receita Corte </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReceitaCorte&#47;tableau.diretoriaop@latam.corp.net&#47;ReceitaCorteSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Serviços Corte/Dia </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelCorte&#47;tableau.diretoriaop@latam.corp.net&#47;CorteSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Receita Religação </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReceitaReligacao&#47;tableau.diretoriaop@latam.corp.net&#47;ReceitaReligacaoSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+          </object>
+        </div>
+      </div>
+
+
+      <h2> Serviços Religação/Dia </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AcompanhamentodeIndicadores&#47;PainelReligao&#47;tableau.diretoriaop@latam.corp.net&#47;ReligacaoSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> PECLD </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='PECLD&#47;PECLD&#47;tableau.diretoriaop@latam.corp.net&#47;PECLD-SFS' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Aging List </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='AgingListdoContasaReceberPCLD&#47;Aginglist&#47;tableau.diretoriaop@latam.corp.net&#47;AgingList-Sul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Leituras </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='&#47;t&#47;Diretoria' />
+            <param name='name' value='3_1AcompanhamentodeLeitura&#47;PlanejadovsRealizado&#47;tableau.diretoriaop@latam.corp.net&#47;LeituraSul' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+      <h2> Atendimento de Prazos </h2>
+      <div class="tableau">
+        <script type='text/javascript' src='http://tableau.aegea.com.br:8000/javascripts/api/viz_v1.js'></script>
+        <div class='tableauPlaceholder' style='width: 1200px; height: 600px;'>
+          <object class='tableauViz' width='1200' height='600' style='display:none;'>
+            <param name='host_url' value='http%3A%2F%2Ftableau.aegea.com.br%3A8000%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='&#47;t&#47;Diretoria' />
+            <param name='name' value='5_1PaineldePrazodeServios&#47;PainelGeral&#47;tableau.diretoriaop@latam.corp.net&#47;SUL' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='no' />
+            <param name='showAppBanner' value='false' />
+            <param name='filter' value='iframeSizedToWindow=true' />
+            <param name='refresh' value='yes' />
+          </object>
+        </div>
+      </div>
+
+  </body>
+  <footer>
+  <p>Criado por: Luiz Silva (Planejamento Regional R2)</p>
+  <p>Problemas? Entre em contato: <a href="mailto:luiz.santos@vilavelhaambiental.com.br">
+  luiz.santos@vilavelhaambiental.com.br</a></p>
+</footer>
+</html>
